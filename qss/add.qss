@@ -1,0 +1,47 @@
+QWidget {
+    background-color: #191919;
+    color: white;
+    font-style: "Calibri";
+    font-size: 14pt;
+}
+
+QLineEdit {
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid darkgrey;
+    outline: none;
+}
+
+QLineEdit:focus { border: 2px solid white; }
+
+QPlainTextEdit {
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+    padding: 10px;
+}
+
+QPlainTextEdit:focus { border: 2px solid white; }
+
+QPushButton {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+QPushButton:hover {
+    background-color: #DEDEDE;
+    border: 1px solid #DEDEDE;
+}
+
+QSpinBox {
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+QSpinBox:focus { border: 2px solid white; }
+QSpinBox::up-button, QSpinBox::down-button { width: 0px; }
+QLabel#error { color: red; }

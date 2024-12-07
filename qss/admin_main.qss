@@ -1,0 +1,172 @@
+QWidget {
+    background-color: #191919;
+    color: white;
+    font: 13pt "Calibri";
+}
+
+QTabWidget::pane { border-top: 0px solid transparent; }
+QTabWidget::tab-bar { alignment: center; margin-top: 10px; }
+
+QTabBar::tab {
+    margin-top: 10px;
+	min-width: 70px;
+    max-width: 100px;
+    height: 30px;
+	color: white;
+	border-radius: 15px;
+	border: 0px solid transparent;
+	padding: 5px;
+}
+
+QTabBar::tab:selected {
+    color: black;
+    background-color: white;
+	border: 1px solid white;
+}
+
+QTableView {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #191919;
+    border-radius: 15px;
+    background-color: #1e1f23;
+    gridline-color: #2e2f33;
+    color: white;
+    font-size: 14px;
+}
+
+QTableCornerButton::section {
+    border: 0px solid transparent;
+    border-top-left-radius: 15px;
+    background-color: #2e2f33;
+}
+
+QHeaderView {
+    border: 0px solid transparent;
+    background-color: #2e2f33;
+}
+
+QHeaderView::section { background-color: #2e2f33; }
+
+QComboBox {
+    background-color: #191919;
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+}
+
+QComboBox:on {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+}
+
+QComboBox QAbstractItemView {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 1px solid white;
+    border-bottom: 2px solid white;
+}
+
+QComboBox::drop-down {
+    width: 1px;
+    border: 0px solid transparent;
+}
+
+QComboBox QAbstractItemView QScrollBar:vertical {
+    background: transparent;
+    width: 0px;
+    margin: 0;
+}
+
+QPushButton {
+    border-radius: 25px;
+    border: 1px solid darkgrey;
+}
+
+QPushButton:hover { background-color: darkgrey; }
+
+QPushButton#new_record_btn, QPushButton#new_branch_btn, QPushButton#new_worker_btn, QPushButton#new_service_btn,
+QPushButton#new_client_btn {
+    font: 25pt;
+    text-align: center;
+    padding: 0pt;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+}
+
+QPushButton#add_schedule_btn {
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+}
+
+QPushButton:hover#new_record_btn, QPushButton:hover#new_branch_btn, QPushButton:hover#new_worker_btn,
+QPushButton:hover#new_service_btn, QPushButton:hover#new_client_btn, QPushButton:hover#add_schedule_btn {
+    background-color: #DEDEDE;
+    border: 0px solid #DEDEDE;
+}
+
+QSpinBox, QDateEdit, QTimeEdit {
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+}
+
+QSpinBox:focus, QDateEdit:focus, QTimeEdit:focus { border: 2px solid white; }
+
+QSpinBox::up-button, QSpinBox::down-button, QDateEdit::up-button, QDateEdit::down-button, QTimeEdit::up-button,
+QTimeEdit::down-button { width: 0px; }
+
+QLabel { padding-left: 10px; }
+
+QLineEdit {
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid darkgrey;
+    outline: none;
+}
+
+QLineEdit:focus { border: 2px solid white; }
+
+QScrollBar {
+    margin: 5px 5px 5px 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+QScrollBar:horizontal { height: 20px; }
+
+QScrollBar:vertical {
+    width: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+QScrollBar::handle {
+    background-color: dimgrey;
+    min-width: 5px;
+    border-radius: 4px;
+}
+
+QScrollBar::up-arrow, QScrollBar::down-arrow { background: none; }
+QScrollBar::add-page, QScrollBar::sub-page { background: none; }
+QScrollBar::add-line, QScrollBar::sub-line { height: 0px; }
+QScrollArea { border: 1px solid transparent; }
+QScrollArea#schedule_scroll { margin: 10px; }
+
+QGroupBox {
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+}

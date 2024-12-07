@@ -1,0 +1,110 @@
+QWidget {
+    background-color: #191919;
+    color: white;
+    font: 13pt "Calibri";
+}
+
+QTabWidget::pane { border-top: 0px solid transparent; }
+QTabWidget::tab-bar { alignment: center; margin-top: 10px; }
+
+QTabBar::tab {
+    margin-top: 10px;
+	min-width: 70px;
+    max-width: 100px;
+    height: 30px;
+	color: white;
+	border-radius: 15px;
+	border: 0px solid transparent;
+	padding: 5px;
+}
+
+QTabBar::tab:selected {
+    color: black;
+    background-color: white;
+	border: 1px solid white;
+}
+
+QLabel {
+    font-size: 20pt;
+    margin-left: 10px;
+    background-color: #191919;
+}
+
+QScrollBar {
+    margin: 5px 5px 5px 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+QScrollBar:horizontal { height: 20px; }
+
+QScrollBar:vertical {
+    width: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+QScrollBar::handle {
+    background-color: dimgrey;
+    min-width: 5px;
+    border-radius: 4px;
+}
+
+QScrollBar::up-arrow, QScrollBar::down-arrow { background: none; }
+QScrollBar::add-page, QScrollBar::sub-page { background: none; }
+QScrollBar::add-line, QScrollBar::sub-line { height: 0px; }
+QScrollArea { border: 1px solid transparent; }
+
+QGroupBox {
+    border-radius: 25px;
+    border: 1px solid dimgrey;
+    margin: 10px;
+    background-color: #191919;
+}
+
+QPushButton {
+    border-radius: 25px;
+    border: 1px solid dimgrey;
+}
+
+QPushButton:hover { background-color: dimgrey; }
+
+QPushButton#new_btn {
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+}
+
+QPushButton:hover#new_btn {
+    background-color: #DEDEDE;
+    border: 0px solid #DEDEDE;
+}
+
+QScrollBar {
+    margin: 5px 5px 5px 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+QScrollBar:horizontal { height: 20px; }
+
+QScrollBar:vertical {
+    width: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+QScrollBar::handle {
+    background-color: dimgrey;
+    min-width: 5px;
+    border-radius: 4px;
+}
+
+QScrollBar::up-arrow, QScrollBar::down-arrow { background: none; }
+QScrollBar::add-page, QScrollBar::sub-page { background: none; }
+QScrollBar::add-line, QScrollBar::sub-line { height: 0px; }
+QScrollArea { border: 1px solid transparent; }

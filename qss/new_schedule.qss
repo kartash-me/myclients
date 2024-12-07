@@ -1,0 +1,43 @@
+QWidget {
+    background-color: #191919;
+    color: white;
+    font: 13pt "Calibri";
+}
+
+QPushButton {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+}
+
+QPushButton:hover {
+    background-color: #DEDEDE;
+    border: 0px solid #DEDEDE;
+}
+
+QSpinBox, QDateEdit, QTimeEdit {
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+}
+
+QSpinBox:focus, QDateEdit:focus, QTimeEdit:focus { border: 2px solid white; }
+
+QSpinBox::up-button, QSpinBox::down-button, QDateEdit::up-button, QDateEdit::down-button, QTimeEdit::up-button,
+QTimeEdit::down-button { width: 0px; }
+
+QLineEdit {
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid darkgrey;
+    outline: none;
+}
+
+QLineEdit:focus { border: 2px solid white; }
+QLabel#label { color: red; }
+
+QGroupBox {
+    border-radius: 20px;
+    border: 0px solid transparent;
+}

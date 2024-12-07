@@ -1,0 +1,62 @@
+QWidget {
+    background-color: #191919;
+    color: white;
+    font-style: "Calibri";
+    font-size: 14pt;
+}
+
+QLineEdit {
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid darkgrey;
+    outline: none;
+}
+
+QLineEdit:focus { border: 2px solid white; }
+
+QPushButton {
+    border-radius: 20px;
+    border: 1px solid dimgrey;
+}
+
+QPushButton:hover { background-color: dimgrey; }
+
+QPushButton#save_btn {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QPushButton:hover#save_btn {
+    background-color: #DEDEDE;
+    border: 1px solid #DEDEDE;
+}
+
+QLabel#company_error, QLabel#worker_error, QLabel#service_error { color: red; }
+
+QScrollBar {
+    margin: 5px 5px 5px 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+QScrollBar:horizontal { height: 20px; }
+
+QScrollBar:vertical {
+    width: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+QScrollBar::handle {
+    background-color: dimgrey;
+    min-width: 5px;
+    border-radius: 4px;
+}
+
+QScrollBar::up-arrow, QScrollBar::down-arrow { background: none; }
+QScrollBar::add-page, QScrollBar::sub-page { background: none; }
+QScrollBar::add-line, QScrollBar::sub-line { height: 0px; }
+QScrollArea { border: 1px solid transparent; }
